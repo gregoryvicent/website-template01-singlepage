@@ -14,3 +14,8 @@ trim_trailing_whitespace = true
 [*.json]
 charset = utf-8
 indent_size = 4
+
+# CSS format
+[*.css]
+charset = utf-8
+indent_size = 2
