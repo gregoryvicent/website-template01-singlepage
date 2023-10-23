@@ -1,9 +1,11 @@
 import Image from 'next/image'
 
+import Header from '../components/Header'
+
 export default function Home() {
   return (
     <main className="">
-      <h1>This is Next.js</h1>
+      <Header />
     </main>
   )
 }
