@@ -10,3 +10,21 @@
   overflow-x: hidden;
   box-sizing: border-box;
 }
+
+a {
+  color: rgb(32, 112, 218);
+  font-weight: 700;
+  transition: color .3s ease;
+}
+
+b {
+  font-weight: 700;;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a:hover {
+  color: rgb(121, 179, 255);
+}
