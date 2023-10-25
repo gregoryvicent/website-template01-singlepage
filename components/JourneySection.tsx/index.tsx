@@ -18,10 +18,10 @@ import imageJob06 from '../../public/image/content01/job6.jpg'
 
 export default function JourneySection() {
   return (
-    <section>
-      <h2 className="m-10 text-4xl font-semibold text-gray-800 text-center italic underline underline-offset-8 decoration-4 decoration-gray-600 h-16">Mi Viaje</h2>
+    <section className="sm:px-20 lg:px-40">
+      <h2 className="m-10 text-4xl font-semibold text-gray-800 text-center italic underline underline-offset-8 decoration-4 decoration-gray-600 h-16 lg:text-6xl lg:h-20 lg:my-32">Mi Viaje</h2>
       <div className="p-5">
-        <p className="text-lg text-center text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis natus dolor autem quibusdam commodi nam velit! Tempora, enim ducimus temporibus architecto expedita obcaecati hic vel odit aspernatur totam possimus cum.</p>
+        <p className="text-lg text-center text-gray-800 md:text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis natus dolor autem quibusdam commodi nam velit! Tempora, enim ducimus temporibus architecto expedita obcaecati hic vel odit aspernatur totam possimus cum.</p>
       </div>
       <section className="p-3 text-gray-800 font-light">
         <ArticleJob
