@@ -1,9 +1,7 @@
-// Importamos el componente Image de 'next/image'
-import Image from 'next/image'
-
 // Importamos el componente Header de '../components/Header'
 import Header from '../components/Header'
 import JourneySection from '@/components/JourneySection.tsx'
+import MyViewsSection from '@/components/MyViewsSection'
 
 // Exportamos la función Home como el componente predeterminado
 export default function Home() {
@@ -14,6 +12,7 @@ export default function Home() {
       <Header />
       {/* Insertamos el componente JourneySection, que representa la sección de la página que muestra el recorrido profesional del usuario */}
       <JourneySection />
+      <MyViewsSection />
     </main>
   )
 }

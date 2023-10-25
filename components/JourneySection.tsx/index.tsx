@@ -23,7 +23,7 @@ export default function JourneySection() {
       <div className="p-5">
         <p className="text-lg text-center text-gray-800 md:text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis natus dolor autem quibusdam commodi nam velit! Tempora, enim ducimus temporibus architecto expedita obcaecati hic vel odit aspernatur totam possimus cum.</p>
       </div>
-      <section className="p-3 text-gray-800 font-light">
+      <div className="p-3 text-gray-800 font-light">
         <ArticleJob
           imgUrl={imageJob01}
           title="Global Planet - Reportera de Investigación"
@@ -75,7 +75,7 @@ export default function JourneySection() {
           content={<Content06 />}
           buttonLink={<ButtonLink link="https://google.com" text="Mi biblioteca online en Amazon" />}
         />
-      </section>
+      </div >
     </section>
   )
 }
