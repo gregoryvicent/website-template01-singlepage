@@ -2,7 +2,7 @@
 export default function Header() {
   return (
     // Este es el elemento principal del Header
-    <header className={`w-full h-screen bg-cover bg-no-repeat bg-[url('/image/people.jpg')]`} style={{ backgroundPosition: '80% 40%' }}>
+    <header className={`w-full h-screen bg-cover bg-no-repeat bg-fixed bg-[url('/image/people.jpg')]`} style={{ backgroundPosition: '80% 40%' }}>
     {/* Aquí se controla la imagen de fondo del Header y su posición con el 'backgroundPosition' */}
       <div className="flex justify-center items-center mx-auto px-6 h-screen">
         {/* Este div es el cuadro donde se sostiene el texto */}
