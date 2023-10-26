@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import JourneySection from '@/components/JourneySection.tsx'
 import MyViewsSection from '@/components/MyViewsSection'
 import MySystemSection from '@/components/MySystemSection/MySystemSection'
+import SocialMediaSection from '@/components/SocialMediaSection'
 
 // Exportamos la función Home como el componente predeterminado
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <JourneySection />
       <MyViewsSection />
       <MySystemSection />
+      <SocialMediaSection />
     </main>
   )
 }
