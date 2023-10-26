@@ -26,6 +26,8 @@ export default function JourneySection() {
       <div className="p-3 text-gray-800 font-light">
         <ArticleJob
           imgUrl={imageJob01}
+          imgUrlAvif="/image/avif/content01/job1.avif"
+          imgUrlWebp="/image/webp/content01/job1.webp"
           title="Global Planet - Reportera de Investigación"
           job="Principal reportera de investigación"
           date="2023"
@@ -34,6 +36,8 @@ export default function JourneySection() {
         />
         <ArticleJob
           imgUrl={imageJob02}
+          imgUrlAvif="/image/avif/content01/job2.avif"
+          imgUrlWebp="/image/webp/content01/job2.webp"
           title="Organizadora de Contentido en 'Linus True'"
           job="Manager de contendidos para redes sociales"
           date="2021"
@@ -42,6 +46,8 @@ export default function JourneySection() {
         />
         <ArticleJob
           imgUrl={imageJob03}
+          imgUrlAvif="/image/avif/content01/job3.avif"
+          imgUrlWebp="/image/webp/content01/job3.webp"
           title="Redactora para el periodico NewsNews"
           job="Periodista de campo para el periodico impreso NewsNews"
           date="2017"
@@ -51,6 +57,8 @@ export default function JourneySection() {
         />
         <ArticleJob
           imgUrl={imageJob04}
+          imgUrlAvif="/image/avif/content01/job4.avif"
+          imgUrlWebp="/image/webp/content01/job4.webp"
           title="Especialista en SEO - 'Dev Zone'"
           job="Encargada del manejo del SEO del sitio web Dev Zone"
           date="2012"
@@ -60,6 +68,8 @@ export default function JourneySection() {
         />
         <ArticleJob
           imgUrl={imageJob05}
+          imgUrlAvif="/image/avif/content01/job5.avif"
+          imgUrlWebp="/image/webp/content01/job5.webp"
           title="Redactora de documentos legales para LGW International"
           job="Redactora auxiliar de docuementos legales para LGW"
           date="2005"
@@ -68,6 +78,8 @@ export default function JourneySection() {
         />
         <ArticleJob
           imgUrl={imageJob06}
+          imgUrlAvif="/image/avif/content01/job6.avif"
+          imgUrlWebp="/image/webp/content01/job6.webp"
           title="Escritora independiente"
           job="Inicie mi carrera como escritora independiente"
           date="2002"

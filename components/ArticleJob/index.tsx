@@ -7,6 +7,8 @@ import ArticleJobPropsType from "@/types/articleJobPropsType";
 // Definimos el componente ArticleJob
 const ArticleJob: React.FC<ArticleJobPropsType> = ({
   imgUrl,
+  imgUrlWebp,
+  imgUrlAvif,
   title,
   job,
   date,
@@ -19,11 +21,15 @@ const ArticleJob: React.FC<ArticleJobPropsType> = ({
     <article className="my-5 grid grid-cols-1 md:grid-cols-3 md:gap-5 md:my-14 lg:my-28 xl:gap-16">
       <div>
         {/* Renderizamos la imagen con el componente Image */}
-        <Image
-          className="rounded-[50px] my-5"
-          src={imgUrl}
-          alt={title}
-        />
+        <picture>
+          <source srcSet={imgUrlAvif} type="image/avif"/>
+          <source srcSet={imgUrlWebp} type="image/webp"/>
+          <Image
+            className="rounded-[50px] my-5"
+            src={imgUrl}
+            alt={title}
+          />
+        </picture>
       </div>
       <div className="md:col-span-2">
         {/* Renderizamos el título del artículo */}
