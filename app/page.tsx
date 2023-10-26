@@ -2,6 +2,7 @@
 import Header from '../components/Header'
 import JourneySection from '@/components/JourneySection.tsx'
 import MyViewsSection from '@/components/MyViewsSection'
+import MySystemSection from '@/components/MySystemSection/MySystemSection'
 
 // Exportamos la función Home como el componente predeterminado
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       {/* Insertamos el componente JourneySection, que representa la sección de la página que muestra el recorrido profesional del usuario */}
       <JourneySection />
       <MyViewsSection />
+      <MySystemSection />
     </main>
   )
 }
