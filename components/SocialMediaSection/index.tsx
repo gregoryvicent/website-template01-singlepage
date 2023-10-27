@@ -12,7 +12,7 @@ const SocialMediaSection = () => {
         <hr className="w-1/3 border-2 border-white mx-auto my-8 font-bold"/>
         <p className="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque similique accusamus distinctio 🔥</p>
         <div className="grid grid-cols-2 grid-rows-2 gap-5 mt-7 mx-auto mb-16 max-w-[630px] lg:grid-cols-3 lg:grid-rows-1">
-          <a className="justify-self-center" href="https://youtube.com" target="_blank">
+          <a className="justify-self-center" href="https://youtube.com" target="_blank" rel="noreferrer noopener">
             <picture>
               <source srcSet="/image/avif/youtube.avif" type="image/avif" />
               <source srcSet="/image/webp/youtube.webp" type="image/webp" />
@@ -23,7 +23,7 @@ const SocialMediaSection = () => {
               />
             </picture>
           </a>
-          <a className="justify-self-center" href="https://twitter.com" target="_blank">
+          <a className="justify-self-center" href="https://twitter.com" target="_blank" rel="noreferrer noopener">
             <picture>
               <source srcSet="/image/avif/twitter_x.avif" type="image/avif" />
               <source srcSet="/image/webp/twitter.webp" type="image/webp" />
@@ -34,7 +34,7 @@ const SocialMediaSection = () => {
               />
             </picture>
           </a>
-          <a className="justify-self-center col-span-2 lg:col-span-1" href="https://linkedin.com" target="_blank">
+          <a className="justify-self-center col-span-2 lg:col-span-1" href="https://linkedin.com" target="_blank" rel="noreferrer noopener">
             <picture>
               <source srcSet="/image/avif/linkedin.avif" type="image/avif" />
               <source srcSet="/image/webp/linkedin.webp" type="image/webp" />
