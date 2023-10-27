@@ -23,8 +23,7 @@ export default function RootLayout({
   return (
     // Devolvemos un elemento html con el atributo lang establecido en 'es'
     <html lang="es">
-      {/* // Dentro del elemento html, tenemos un elemento body con la clase de la fuente Inter */}
-      <body className={inter.className}>{children}</body> {/* Renderizamos los componentes hijos dentro del body */}
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

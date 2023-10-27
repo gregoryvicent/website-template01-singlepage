@@ -9,13 +9,16 @@ import SocialMediaSection from '@/components/SocialMediaSection'
 export default function Home() {
   return (
     // El componente principal que se devuelve es un elemento <main>
-    <main className="">
+    <main>
       {/* El componente Header representa la cabezera de la pagina web con la imagen del usuario y titulo principal de presentación */}
       <Header />
       {/* Insertamos el componente JourneySection, que representa la sección de la página que muestra el recorrido profesional del usuario */}
       <JourneySection />
+      {/* Insertamos el componente MyViewsSection, que representa la sección de la página que muestra las vistas del usuario */}
       <MyViewsSection />
+      {/* Insertamos el componente MySystemSection, que representa la sección de la página que muestra el sistema del usuario */}
       <MySystemSection />
+      {/* Insertamos el componente SocialMediaSection, que representa la sección de la página que muestra las redes sociales del usuario */}
       <SocialMediaSection />
     </main>
   )
